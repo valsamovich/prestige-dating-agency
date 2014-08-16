@@ -17,21 +17,25 @@
   <link href="css/default.css" rel="stylesheet" type="text/css">
   <link href="css/alternate.css" rel="alternate stylesheet" type="text/css"
     title="alternate">
-
+  <!-- Language switch script -->
   <script src="js/styleswitch.js" type="text/javascript"></script>
 
 </head>
 
 <body>
-  <div>
-    <a href="javascript:chooseStyle('none', 60)">Eng</a>
-    <a href="javascript:chooseStyle('alternate', 60)">Rus</a>
+  <!-- Language switch -->
+  <div class ="language-switch">
+    <a href="javascript:chooseStyle('none', 60)">ENG</a>
+    <a href="javascript:chooseStyle('alternate', 60)">RUS</a>
   </div>
   <div class="brand">
     <span class="default">Prestige</span>
     <span class="alternate">Престиж</span>
   </div>
-  <div class="address-bar">Exclusive Dating Agency</div>
+  <div class="address-bar">
+    <span class="default">Exclusive Dating Agency</span>
+    <span class="alternate">Эксклюзивное Агенство Знакомств</span>
+  </div>
 
   <!-- Navigation -->
   <nav class="navbar navbar-default" role="navigation">
@@ -44,29 +48,50 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Prestige</a>
+        <a class="navbar-brand" href="index.html">
+          <span class="default">Prestige</span>
+          <span class="alternate">Престиж</span>
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">
+              <span class="default">Home</span>
+              <span class="alternate">Главная</span>
+            </a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="about.html">
+              <span class="default">About</span>
+              <span class="alternate">О Нас</span>
+            </a>
           </li>
           <li>
-            <a href="gallery.html">Gallery</a>
+            <a href="gallery.html">
+              <span class="default">Gallery</span>
+              <span class="alternate">Галерея</span>
+            </a>
           </li>
           <li>
-            <a href="advertising.html">Ads</a>
+            <a href="advertising.html">
+              <span class="default">Ads</span>
+              <span class="alternate">Реклама</span>
+            </a>
           </li>
           <li>
-            <a href="events.html">Events</a>
+            <a href="events.html">
+              <span class="default">Events</span>
+              <span class="alternate">Вечера</span>
+            </a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">
+              <span class="default">Contact</span>
+              <span class="alternate">Регистрация</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -120,14 +145,25 @@
             </a>
           </div>
           <h1>
-            <small>Welcome to</small>
+            <small>
+              <span class="default">Welcome to</span>
+              <span class="alternate">Добро Пожаловать в</span>
+            </small>
             <br>
-            <span class="brand-name">Prestige</span>
+            <span class="brand-name">
+              <span class="default">Prestige</span>
+              <span class="alternate">Престиж</span>
+            </span>
           </h1>
           <hr class="tagline-divider">
           <h1>
-            <small>Exclusive
-              <strong>Dating Agency</strong>
+            <small>
+              <span class="default">Exclusive</span>
+              <span class="alternate">Эксклюзивное</span>
+              <strong>
+                <span class="default">Dating Agency</span>
+                <span class="alternate">Агенство Знакомств</span>
+              </strong>
             </small>
           </h1>
         </div>
@@ -169,16 +205,31 @@
       <div class="box">
         <div class="col-lg-12">
           <hr>
-          <h2 class="intro-text text-center">Exclusive agency "Prestige"
-            <strong>will change your life.</strong>
+          <h2 class="intro-text text-center">
+            <span class="default">Exclusive agency "Prestige"</span>
+            <span class="alternate">Эксклюзивное Агенство"Престиж"</span>
+            <strong>
+              <span class="default">will change your life.</span>
+              <span class="alternate">изменит вашу жизнь.</span>
+            </strong>
           </h2>
           <hr>
-          <p>Prestige Dating Agency is an exclusive agency for finding stable
-            relationship and marriage. Our offices are in Moscow and St.
-            Petersburg (Russia), Kiev (Ukraine), Orlando (USA). Exclusive
-            agency "Prestige" will change your life, make it more complete and
-            happy. Agency "Prestige" will help you choose the perfect pair.
-            Remember that happiness is a way of travel, not a destination.</p>
+          <p>
+            <span class="default">Prestige Dating Agency is an exclusive agency
+              for finding stable relationship and marriage. Our offices are in
+              Moscow and St.Petersburg (Russia), Kiev (Ukraine), Orlando (USA).
+              Exclusive agency "Prestige" will change your life, make it more
+              complete andhappy. Agency "Prestige" will help you choose the
+              perfect pair. Remember that happiness is a way of travel, not a
+              destination.</span>
+            <span class="alternate">Агенство знакомств "престиж" это
+              эксклюзивное агентство для поиска стабильных отношений и брака.
+              Наши офисы находятся в Москве и Санкт-Петербурге (Россия), Киеве
+              (Украина), Орландо (США). Эксклюзивное Агенство"Престиж" изменить
+              вашу жизнь, сделать её более полной и счастливой. Агенство
+              "Престиж" поможит вам выбрать идеальную пару. Помните, что
+              счастье это способ путешествия, а не пункт назначения.</span>
+          </p>
         </div>
       </div>
     </div>
