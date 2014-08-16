@@ -1,0 +1,8 @@
+.alternate {
+  display:block;
+  display:inline;
+}
+
+.default {
+  display: none;
+}
