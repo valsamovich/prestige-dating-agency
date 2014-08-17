@@ -4,101 +4,162 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=" This International Agency will help you choose the perfect pair.">
-    <meta name="Keywords" content="International prestige, marriage agency, a stable relationship, marriage, happiness, office,          Moscow, Kiev, USA">
+    <meta name="description" content=" This International Agency will help you
+      choose the perfect pair.">
+    <meta name="Keywords" content="International prestige, marriage agency,
+      a stable relationship, marriage, happiness, office, Moscow, Kiev, USA">
     <meta name="author" content="">
     <title>Contact - Business Casual Template for Bootstrap</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Add custom CSS here -->
     <link href="css/business-casual.css" rel="stylesheet">
+    <!-- Language styles -->
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+    <link href="css/alternate.css" rel="alternate stylesheet" type="text/css"
+      title="alternate">
+    <!-- Language switch script -->
+    <script src="js/styleswitch.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <div class="brand">Prestige</div>
-    <div class="address-bar">Exclusive Dating Agency</div>
+  <!-- Header -->
+  <div class="brand">
+    <span class="default">Prestige</span>
+    <span class="alternate">Престиж</span>
+  </div>
+  <div class="address-bar">
+    <span class="default">Exclusive Dating Agency.</span>
+    <span class="alternate">Эксклюзивное Агенство Знакомств.</span>
+    <span class="language-switch">
+      <a href="javascript:chooseStyle('none', 60)">ENG</a>&nbsp;-
+      <a href="javascript:chooseStyle('alternate', 60)">RUS</a>
+    </span>
+  </div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Prestige</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="advertising.html">Ads</a>
-                    </li>
-                    <li>
-                        <a href="events.html">Events</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <!-- /Navigation -->
-
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
     <div class="container">
-        <!--
-      <div class="row">
-        <div class="box">
-          <div class="col-lg-12">
-            <hr>
-            <h2 class="intro-text text-center">Contact <strong>business casual</strong></h2>
-            <hr>
-          </div>
-          <div class="col-md-8">-->
 
-        <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+          data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <span class="default">Prestige</span>
+          <span class="alternate">Престиж</span>
+          <span class="language-switch-mobile">
+            <a href="javascript:chooseStyle('none', 60)">ENG</a>&nbsp;-
+            <a href="javascript:chooseStyle('alternate', 60)">RUS</a>
+          </span>
+        </a>
+      </div>
 
-        <!--<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-          </div>
-          <div class="col-md-4">
-            <p>Phone: <strong>555.519.2013</strong></p>
-            <p>Email: <strong>feedback@startbootstrap.com</strong></p>
-            <p>Address: <strong>The Plaza<br>5483 Start Bootstrap Ave.<br>Beverley Hills, CA 26829</strong></p>
-          </div>
-          <div class="clearfix"></div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="index.html">
+              <span class="default">Home</span>
+              <span class="alternate">Главная</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              <span class="default">About</span>
+              <span class="alternate">О Нас</span>
+            </a>
+          </li>
+          <li>
+            <a href="gallery.html">
+              <span class="default">Gallery</span>
+              <span class="alternate">Галерея</span>
+            </a>
+          </li>
+          <li>
+            <a href="advertising.html">
+              <span class="default">Ads</span>
+              <span class="alternate">Реклама</span>
+            </a>
+          </li>
+          <li>
+            <a href="events.html">
+              <span class="default">Events</span>
+              <span class="alternate">Вечера</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <span class="default">Contact</span>
+              <span class="alternate">Регистрация</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /navbar-collapse -->
+    </div>
+    <!-- /container -->
+  </nav>
+  <!-- /Navigation -->
+
+  <div class="container">
+    <!--<div class="row">
+      <div class="box">
+        <div class="col-lg-12">
+          <hr>
+          <h2 class="intro-text text-center">Contact
+            <strong>business casual</strong>
+          </h2>
+          <hr>
         </div>
-      </div>-->
+        <div class="col-md-8">-->
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Join
-                        <strong>Now!</strong>
-                    </h2>
-                    <hr>
-                    <p>
-                        <a href="img/join-now/join-now-form.pdf">1. Click to download registration form!</a>
-                        <br>2. Print it and fill out
-                        <br>3. Send it to us by email: info@prestigedatingagency.com</p>
-                </div>
-            </div>
+          <!-- Embedded Google Map using an iframe - to select your location
+          find it on Google maps and paste the link as the iframe src.
+          If you want to use the Google Maps API instead then have at it! -->
+          <!--<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
         </div>
+        <div class="col-md-4">
+          <p>Phone: <strong>555.519.2013</strong></p>
+          <p>Email: <strong>feedback@startbootstrap.com</strong></p>
+          <p>Address: <strong>The Plaza<br>5483 Start Bootstrap Ave.<br>Beverley Hills, CA 26829</strong></p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>-->
+
+    <div class="row">
+      <div class="box">
+        <div class="col-lg-12">
+          <hr>
+          <h2 class="intro-text text-center">
+            <span class="default">Join</span>
+            <span class="alternate"></span>
+            <strong>
+              <span class="default">Now!</span>
+              <span class="alternate"></span>
+            </strong>
+          </h2>
+          <hr>
+          <p>
+            <a href="img/join-now/join-now-form.pdf">
+              <span class="default">1. Click to download registration form!</span>
+              <span class="alternate">1. </span>
+            </a>
+            <br>
+              <span class="default">2. Print it and fill out</span>
+              <span class="alternate">2. </span>
+            <br>
+              <span class="default">3. Send it to us by email: info@prestigedatingagency.com<span>
+              <span class="alternate"></span>
+          </p>
+        </div>
+      </div>
+    </div>
 
         <div class="row">
             <div class="box">

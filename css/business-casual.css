@@ -187,3 +187,12 @@ footer p a {
   color: #999999;
   text-decoration: none;
 }
+
+.language-switch-mobile a {
+  color: #999999;
+}
+
+.language-switch-mobile a:hover {
+  color: #999999;
+  text-decoration: none;
+}
