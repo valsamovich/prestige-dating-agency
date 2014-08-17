@@ -182,3 +182,8 @@ footer p a {
 .language-switch a {
   color: #ffffff;
 }
+
+.language-switch a:hover {
+  color: #999999;
+  text-decoration: none;
+}
