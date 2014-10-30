@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
 	$name = $_POST['name'];  // Gets the entered name
 	$email = $_POST['email']; // Gets the entered email
 	$message = $_POST['message']; // Gets the entered message
-	$to = "valerysamovich@gmail.com"; // Email address
+	$to = "..."; // Email address
 
 	// Validating the fields
 	if($name != "" && $email != "" && $message != ""){
