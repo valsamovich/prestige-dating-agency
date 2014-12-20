@@ -5,272 +5,183 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Prestigious, exclusive agency presents
-      beautiful, elegant ladies and serious, decent men.">
+        beautiful, elegant ladies and serious, decent men.">
     <meta name="Keywords" content="Marriage agency, to be loved, prestige,
-      marriage, foreigner, USA, Russia, Ukraine, serious relationship">
+        marriage, foreigner, USA, Russia, Ukraine, serious relationship">
     <meta name="author" content="">
     <title>Blog - Business Casual Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
+    <!-- CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Add custom CSS here -->
     <link href="css/business-casual.css" rel="stylesheet">
-    <!-- Language styles -->
     <link href="css/default.css" rel="stylesheet" type="text/css">
-    <link href="css/alternate.css" rel="alternate stylesheet" type="text/css"
-      title="alternate">
-    <!-- Language switch script -->
+    <link href="css/alternate.css" rel="alternate stylesheet" type="text/css" title="alternate">
+    <!-- JavaSctipt -->
+    <script src="js/jquery-1.10.2.js"></script>
     <script src="js/styleswitch.js" type="text/javascript"></script>
+    <script src="js/include.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <!-- Header -->
-  <div class="brand">
-    <span class="default">Prestige</span>
-    <span class="alternate">Престиж</span>
-  </div>
-  <div class="address-bar">
-    <span class="default">Exclusive Dating Agency.</span>
-    <span class="alternate">Эксклюзивное Агенство Знакомств.</span>
-    <span class="language-switch">
-      <a href="javascript:chooseStyle('none', 60)">ENG</a>&nbsp;-
-      <a href="javascript:chooseStyle('alternate', 60)">RUS</a>
-    </span>
-  </div>
+    <!-- Header -->
+    <div id="header"></div>
+    
+    <!-- Navigation -->
+    <div id="navigation"></div>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-default" role="navigation">
+    <!-- Container    -->
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"
-          data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          <span class="default">Prestige</span>
-          <span class="alternate">Престиж</span>
-        </a>
-      </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="index.html">
-              <span class="default">Home</span>
-              <span class="alternate">Главная</span>
-            </a>
-          </li>
-          <li>
-            <a href="about.html">
-              <span class="default">About</span>
-              <span class="alternate">О Нас</span>
-            </a>
-          </li>
-          <li>
-            <a href="gallery.html">
-              <span class="default">Gallery</span>
-              <span class="alternate">Галерея</span>
-            </a>
-          </li>
-          <li>
-            <a href="advertising.html">
-              <span class="default">Ads</span>
-              <span class="alternate">Реклама</span>
-            </a>
-          </li>
-          <li>
-            <a href="events.html">
-              <span class="default">Events</span>
-              <span class="alternate">Вечера</span>
-            </a>
-          </li>
-          <li>
-            <a href="contact.html">
-              <span class="default">Contact</span>
-              <span class="alternate">Регистрация</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!-- /navbar-collapse -->
+        <div class="row">
+            <div class="box">
+
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <span class="default">Company </span>
+                        <span class="alternate">Наши </span>
+                        <strong>
+                            <span class="default">Events</span>
+                            <span class="alternate">Вечера</span>
+                        </strong>
+                    </h2>
+                    <hr>
+                </div>
+
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full"
+                        src="img/events/spring-event.jpg" alt="Spring event">
+                    <h2>
+                        <span class="event-color">
+                            <span class="default">Spring Festival</span>
+                            <span class="alternate">Весенний Фестиваль</span>
+                        </span>
+                        <br>
+                        <small>
+                            <span class="default">May 9, 2014</span>
+                            <span class="alternate">9 Мая 2014</span>
+                        </small>
+                    </h2>
+                    <p>
+                        <span class="default">Evening VIP dating - it was fun and romantic.
+                            People had a great time in a romantic and welcoming atmosphere.
+                         
+                        </span>
+                        <span class="alternate">Эксклюзивные вечера встреч- веселье и
+                            романтика. Вы замечательно проведете время в романтической и
+                            душевной    атмосфере. 
+                        </span>
+                            <br>
+                        <a href="https://www.youtube.com/watch?v=Ld-4asQeCZI">
+                            <span class="default">Click here to watch a video about our
+                                events...
+                            </span>
+                            <span class="alternate">Нажмите здесь и смотрите видео запись
+                                наших вечеров...
+                            </span>
+                        </a>
+                    </p>
+                    <!-- Event button for read more -->
+                    <!--<a href="#" class="btn btn-default btn-lg">
+                        <span class="default">Read More</span>
+                        <span class="alternate">Читайте дальше</span>
+                    </a>
+                    <hr>-->
+                </div>
+                <br>
+
+
+                <!--Start: Copy to creat new autumn event-->
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full"
+                        src="img/events/autumn-event.jpg" alt="autumn events">
+                    <h2>
+                        <span class="default">Autumn Festival</span>
+                        <span class="alternate">Осенний Фестиваль</span>
+                        <br>
+                        <small>
+                            <span class="default">November 9, 2013</span>
+                            <span class="alternate">9 Ноября 2013</span>
+                        </small>
+                    </h2>
+                    <p>
+                        <span class="default">Evening VIP dating - it was fun and romantic.
+                            People had a great time in a romantic and welcoming atmosphere.
+                        </span>
+                        <span class="alternate">Эксклюзивные вечера встреч- веселье и
+                            романтика. Вы замечательно проведете время в романтической и
+                            душевной    атмосфере.
+                        </span>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=w62R8WLnY0s">
+                            <span class="default">Click here to watch a video about our
+                                events...
+                            </span>
+                            <span class="alternate">Нажмите здесь и смотрите видео запись
+                                наших вечеров...
+                            </span>
+                        </a>
+                    </p>
+                    <!-- Event button for read more -->
+                    <!--<a href="#" class="btn btn-default btn-lg">
+                        <span class="default">Read More</span>
+                        <span class="alternate">Читайте дальше</span>
+                    </a>
+                    <hr>-->
+                </div>
+                </br>
+                <!--End: Copy to creat new event -->
+
+
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full"
+                        src="img/events/winter-event.jpg" alt="Winter event">
+                    <h2>
+                        <span class="event-color">
+                            <span class="default">Winter Festival</span>
+                            <span class="alternate">Зимний Фестиваль</span>
+                        </span>
+                        <br>
+                        <small>
+                            <span class="default">December 28, 2013</span>
+                            <span class="alternate">28 Декабря 2013</span>
+                        </small>
+                    </h2>
+                    <p>
+                        <span class="default">Evening VIP dating - it was fun and romantic.
+                            Celebrated the end of 2013 and the beginning of 2014.
+                        </span>
+                        <span class="alternate">Эксклюзивные вечера встреч- веселье и
+                            романтика. Праздновали конец 2013 и начало 2014 года.
+                        </span>
+                        </br>
+                        <a href="https://www.youtube.com/watch?v=w62R8WLnY0s">
+                            <span class="default">Click here to watch a video about our
+                                events...
+                            </span>
+                            <span class="alternate">Нажмите здесь и смотрите видео запись
+                                наших вечеров...
+                            </span>
+                        </a>
+                    </p>
+                    <!-- Event button for read more -->
+                    <!--<a href="#" class="btn btn-default btn-lg">
+                        <span class="default">Read More</span>
+                        <span class="alternate">Читайте дальше</span>
+                    </a>
+                    <hr>-->
+                </div>
+
+                <!--<div class="col-lg-12 text-center">
+                    <ul class="pager">
+                        <li class="previous"><a href="#">&larr; Older</a></li>
+                        <li class="next"><a href="#">Newer &rarr;</a></li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
     </div>
-    <!-- /container -->
-  </nav>
-  <!-- /Navigation -->
 
-  <!-- Container  -->
-  <div class="container">
-
-    <div class="row">
-      <div class="box">
-
-        <div class="col-lg-12">
-          <hr>
-          <h2 class="intro-text text-center">
-            <span class="default">Company </span>
-            <span class="alternate">Наши </span>
-            <strong>
-              <span class="default">Events</span>
-              <span class="alternate">Вечера</span>
-            </strong>
-          </h2>
-          <hr>
-        </div>
-
-        <div class="col-lg-12 text-center">
-          <img class="img-responsive img-border img-full"
-            src="img/events/spring-event.jpg" alt="Spring event">
-          <h2>
-            <span class="event-color">
-              <span class="default">Spring Festival</span>
-              <span class="alternate">Весенний Фестиваль</span>
-            </span>
-            <br>
-            <small>
-              <span class="default">May 9, 2014</span>
-              <span class="alternate">9 Мая 2014</span>
-            </small>
-          </h2>
-          <p>
-            <span class="default">Evening VIP dating - it was fun and romantic.
-              People had a great time in a romantic and welcoming atmosphere.
-             
-            </span>
-            <span class="alternate">Эксклюзивные вечера встреч- веселье и
-              романтика. Вы замечательно проведете время в романтической и
-              душевной  атмосфере. 
-            </span>
-              <br>
-            <a href="https://www.youtube.com/watch?v=Ld-4asQeCZI">
-              <span class="default">Click here to watch a video about our
-                events...
-              </span>
-              <span class="alternate">Нажмите здесь и смотрите видео запись
-                наших вечеров...
-              </span>
-            </a>
-          </p>
-          <!-- Event button for read more -->
-          <!--<a href="#" class="btn btn-default btn-lg">
-            <span class="default">Read More</span>
-            <span class="alternate">Читайте дальше</span>
-          </a>
-          <hr>-->
-        </div>
-        <br>
-
-
-        <!--Start: Copy to creat new autumn event-->
-        <div class="col-lg-12 text-center">
-          <img class="img-responsive img-border img-full"
-            src="img/events/autumn-event.jpg" alt="autumn events">
-          <h2>
-            <span class="default">Autumn Festival</span>
-            <span class="alternate">Осенний Фестиваль</span>
-            <br>
-            <small>
-              <span class="default">November 9, 2013</span>
-              <span class="alternate">9 Ноября 2013</span>
-            </small>
-          </h2>
-          <p>
-            <span class="default">Evening VIP dating - it was fun and romantic.
-              People had a great time in a romantic and welcoming atmosphere.
-            </span>
-            <span class="alternate">Эксклюзивные вечера встреч- веселье и
-              романтика. Вы замечательно проведете время в романтической и
-              душевной  атмосфере.
-            </span>
-            <br>
-            <a href="https://www.youtube.com/watch?v=w62R8WLnY0s">
-              <span class="default">Click here to watch a video about our
-                events...
-              </span>
-              <span class="alternate">Нажмите здесь и смотрите видео запись
-                наших вечеров...
-              </span>
-            </a>
-          </p>
-          <!-- Event button for read more -->
-          <!--<a href="#" class="btn btn-default btn-lg">
-            <span class="default">Read More</span>
-            <span class="alternate">Читайте дальше</span>
-          </a>
-          <hr>-->
-        </div>
-        </br>
-        <!--End: Copy to creat new event -->
-
-
-        <div class="col-lg-12 text-center">
-          <img class="img-responsive img-border img-full"
-            src="img/events/winter-event.jpg" alt="Winter event">
-          <h2>
-            <span class="event-color">
-              <span class="default">Winter Festival</span>
-              <span class="alternate">Зимний Фестиваль</span>
-            </span>
-            <br>
-            <small>
-              <span class="default">December 28, 2013</span>
-              <span class="alternate">28 Декабря 2013</span>
-            </small>
-          </h2>
-          <p>
-            <span class="default">Evening VIP dating - it was fun and romantic.
-              Celebrated the end of 2013 and the beginning of 2014.
-            </span>
-            <span class="alternate">Эксклюзивные вечера встреч- веселье и
-              романтика. Праздновали конец 2013 и начало 2014 года.
-            </span>
-            </br>
-            <a href="https://www.youtube.com/watch?v=w62R8WLnY0s">
-              <span class="default">Click here to watch a video about our
-                events...
-              </span>
-              <span class="alternate">Нажмите здесь и смотрите видео запись
-                наших вечеров...
-              </span>
-            </a>
-          </p>
-          <!-- Event button for read more -->
-          <!--<a href="#" class="btn btn-default btn-lg">
-            <span class="default">Read More</span>
-            <span class="alternate">Читайте дальше</span>
-          </a>
-          <hr>-->
-        </div>
-
-        <!--<div class="col-lg-12 text-center">
-          <ul class="pager">
-            <li class="previous"><a href="#">&larr; Older</a></li>
-            <li class="next"><a href="#">Newer &rarr;</a></li>
-          </ul>
-        </div>-->
-      </div>
-    </div>
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <p>Copyright &copy; Prestige 2014. <a href="policy.html">Privacy
-            Policy.&nbsp;</a>Developed by Valery Samovich</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- /Footer-->
-
-  <!-- JavaScript -->
-  <script src="js/jquery-1.10.2.js"></script>
-  <script src="js/bootstrap.js"></script>
-
+    <!-- Footer -->
+    <div id="footer"></div>
 </body>
 </html>
