@@ -1,7 +1,7 @@
 prestige
 ========
 
-Prestige is a Prestige Dating Agency Web Application. It's build with HTML5, CSS3, JQuery and Twitter Bootstrap. Application supporting English and Russian Languages.
+Prestige is a Exclusive Dating Agency Web Application. It's build with HTML5, CSS3, JQuery and Twitter Bootstrap. Application supporting English and Russian Languages.
 
 Developer
 ---------
