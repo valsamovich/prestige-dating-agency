@@ -101,10 +101,14 @@ footer p {
     margin: 0;
     padding: 20px 0;
     color:#999999;
-    font-size:16px;
+    font-size:14px;
 }
 footer p a {
-    color:black;
+    color: darkgrey;
+}
+footer p a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
