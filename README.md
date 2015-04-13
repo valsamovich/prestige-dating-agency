@@ -6,7 +6,7 @@ prestige
 For Contributors
 ----------------
 
-Soon...
+[How to Git](https://github.com/valerysamovich/engineering/blob/master/docs/how-to-git.md)
 
 Developer
 ---------
