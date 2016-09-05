@@ -4,4 +4,5 @@
 
 ## Features
 
-- Multilannguages
+- Front-End architecture
+- Multi Languages
